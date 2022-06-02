@@ -69,8 +69,11 @@ npm run test
 
 ## How to Contribute
 
+<<<<<<< HEAD
 ## How to Contribute
 
+=======
+>>>>>>> 55f179155366afd19b84f382881829c5cc806962
 The following is a list of features and improvements for future open source developers. If you have any additional ideas, feel free to implement those as well!
 
 - Custom error handling

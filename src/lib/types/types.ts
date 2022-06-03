@@ -5,13 +5,13 @@ import type { XYPosition } from './utils';
 export interface Node<T = any> {
   id: number;
   position: XYPosition;
-  type: string;
   data: T;
   width?: number;
   height?: number;
   bgColor?: string;
   fontSize?: number;
   borderColor?: string;
+  borderRadius?: number;
   textColor?: string;
 }
 
@@ -20,13 +20,14 @@ export interface Edge<T = any> {
   source: number;
   target: number;
   label?: string;
+  type?: string;
   animate?: boolean;
   noHandle?: boolean;
   arrow?: boolean;
 }
 
 // interface for basic edge
-export interface DerivedEdge<T = any> {
+export interface DerivedEdge extends Edge {
   sourceX: number;
   sourceY: number;
   sourcePosition: Position;

@@ -18,9 +18,10 @@ Svelvet is a lightweight Svelte component library for building interactive node-
 
 ## Version Updates
 
-Shout out to our contributors! Here's what's new: 
+Shout out to our contributors! Here's what's new:
 
-### Changelog 
+### Changelog
+
 <details><summary>v1.0.2</summary>
 <ul>
   <li>Fixed bug with importing types for TypeScript applications</li>
@@ -31,9 +32,9 @@ Shout out to our contributors! Here's what's new:
 
 ## Key Features
 
-- **Easy to use:** To get [started](https://svelvet.io/docs/basic-usage/) with Svelvet, all you need is data for nodes and edges. Visit our [documentation website](https://svelvet.io/) for streamlined, user-friendly tutorials and examples on how to get the most out of your Svelvet flowchart! 
+- **Easy to use:** To get [started](https://svelvet.io/docs/basic-usage/) with Svelvet, all you need is data for nodes and edges. Visit our [documentation website](https://svelvet.io/) for streamlined, user-friendly tutorials and examples on how to get the most out of your Svelvet flowchart!
 - **Interactive:** Elegant and smooth interface when selecting a node to drag it across the graph.
-- **Customizable:** Ability to customize your nodes and edges (node size, color, border and edge type, label, anchor). More coming soon! 
+- **Customizable:** Ability to customize your nodes and edges (node size, color, border and edge type, label, anchor). More coming soon!
 - **Fast rendering:** Re-rendering is based on changes to initial values for nodes, edges and optional background.
 - **Reliable:** Svelvet is written in TypeScript and tested with [Vitest](https://vitest.dev/), [Playwright](https://playwright.dev/) and [Svelte Testing Library](https://testing-library.com/docs/svelte-testing-library/intro/). Svelvet is maintained by motivated engineers seeking to contribute to the larger Svelte developer community and library ecosystem.
 - **Room to Grow:** There is so much we can do to improve, add features and make Svelvet the best version of itself - we welcome feedback and contributions! Scroll below for suggestions on what to contribute.
@@ -85,28 +86,20 @@ npm run test
 
 ## How to Contribute
 
-<<<<<<< HEAD
-## How to Contribute
+The following is a list of features and improvements by ourselves and the larger Svelte community for any open source developer to contribute. If you have any additional ideas, feel free to raise the issue or implement them as well!
 
-=======
->>>>>>> 55f179155366afd19b84f382881829c5cc806962
-The following is a list of features and improvements for future open source developers. If you have any additional ideas, feel free to implement those as well!
-
-- Default values for nodes
+- Default values for nodes and edges
+- Constant node drag speed regardless of zoom in/out
+- Add left and right anchor locations
 - Contextual menus
+- Customize edges (source/target) with icons
+- Customize nodes via html templates/Svelte components
+- Multiple sockets and socket compatibility for links
 - Custom error handling
 - Increase test coverage for scalability
 - Integration with mobile (click and drag nodes on your phone/tablet)
 - More styling and customization of nodes and edges for complex Svelvet flow diagrams
 - Add a full stack feature to the documentation website with authentication and database that allows users to login, create and save their Svelvet diagrams
-
-Additional feature and improvement requests from the Svelte community: 
-
-- Customize nodes via html templates/Svelte components
-- Constant node drag speed when zooming in and out
-- Customize edges (source/target) with icons 
-- Include left and right anchor locations 
-- Multiple sockets and socket compatibility for links
 
 ## Credits
 
